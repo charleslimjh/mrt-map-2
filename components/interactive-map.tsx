@@ -211,7 +211,7 @@ export default function InteractiveMap(props: any) {
           <circle cx={964} cy={514} r={3} />
           <circle cx={859} cy={418} r={3} />
           <circle cx={721} cy={390.8} r={3} />
-          <circle cx={601} cy={429} r={3} />
+          {/*  CC18 <circle cx={601} cy={429} r={3} /> */}
           <circle cx={515.5} cy={514} r={3} />
           <circle cx={497} cy={549} r={3} />
           <circle cx={475.7} cy={637} r={3} />
@@ -233,7 +233,7 @@ export default function InteractiveMap(props: any) {
         >
           <circle cx={479} cy={265} r={3} />
           <circle cx={479} cy={297} r={3} />
-          <circle cx={479} cy={329} r={3} />
+          {/* DT4 <circle cx={479} cy={329} r={3} /> */}
           <circle cx={479} cy={361} r={3} />
           <circle cx={485} cy={406} r={3} />
           <circle cx={502} cy={425} r={3} />
@@ -272,7 +272,7 @@ export default function InteractiveMap(props: any) {
           <circle cx={658} cy={247} r={3} />
           <circle cx={658} cy={309} r={3} />
           <circle cx={658} cy={357} r={3} />
-          <circle cx={658} cy={444} r={3} />
+          {/* TE10 <circle cx={658} cy={444} r={3} /> */}
           <circle cx={658} cy={517} r={3} />
           <circle cx={658} cy={549} r={3} />
           <circle cx={658} cy={648} r={3} />
@@ -304,7 +304,7 @@ export default function InteractiveMap(props: any) {
             opacity={
               props.active == "allmaps" ||
               props.active == "nsl" ||
-              props.active == "nel" ||
+              props.active == "tel" ||
               props.active == "ccl"
                 ? "1.0"
                 : inactive
@@ -2211,7 +2211,7 @@ export default function InteractiveMap(props: any) {
             opacity={
               props.active == "allmaps" ||
               props.active == "nsl" ||
-              props.active == "nel" ||
+              props.active == "tel" ||
               props.active == "ccl"
                 ? "1.0"
                 : inactive

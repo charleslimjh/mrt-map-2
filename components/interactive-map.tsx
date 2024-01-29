@@ -3,7 +3,7 @@ export default function InteractiveMap(props: any) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1410 1007" {...props}>
       <path fill="#fff" d="M0 0h1410v1007H0z" />
-      // ----- title -----
+      {/* ----- title ----- */}
       <g id="title">
         <text
           x={7.1}
@@ -19,9 +19,9 @@ export default function InteractiveMap(props: any) {
           <tspan>{"SINGAPORE MRT/LRT MAP"}</tspan>
         </text>
       </g>
-      // ----- lines -----
+      {/* // ----- lines ----- */}
       <g id="lines" fill="none" strokeWidth={4}>
-        // EWL Line
+        {/* // EWL Line */}
         <g
           id="ew_line"
           stroke="#009645"
@@ -34,7 +34,7 @@ export default function InteractiveMap(props: any) {
           <path d="M1227 638v16q0 20 20 20h84" />
           <path d="m1284 523-25 25q-14.14 14.14-14.14 34.14v37q0 20-20 20h-220q-20 0-34.14 14.14l-182 182q-14.14 14.14-34.14 14.14h-43q-20 0-34.14-14.14l-9-9q-14.14-14.14-14.14-34.14T640.16 758l-230.4-230.4q-14.14-14.14-34.14-14.14H95.02q-20 0-20 20v82" />
         </g>
-        // NSL Line
+        {/* // NSL Line */}
         <path
           id="ns_line"
           stroke="#d42e12"
@@ -45,7 +45,7 @@ export default function InteractiveMap(props: any) {
               : inactive
           }
         />
-        // NEL Line
+        {/* // NEL Line */}
         <path
           id="ne_line"
           stroke="#90a"
@@ -56,7 +56,7 @@ export default function InteractiveMap(props: any) {
               : inactive
           }
         />
-        // CCL Line
+        {/* // CCL Line */}
         <g
           key="cc_line"
           stroke="#fa9e0d"
@@ -69,7 +69,7 @@ export default function InteractiveMap(props: any) {
           <path d="M754 689q20 0 34.14 14.14l124 124q14.14 14.14 28.28 0" />
           <path d="M582 867a265 265 0 1 1 211 47" />
         </g>
-        // DTL Line
+        {/* // DTL Line */}
         <g
           id="dt_line"
           stroke="#005ec4"
@@ -82,7 +82,7 @@ export default function InteractiveMap(props: any) {
           <path d="M479 225v157q0 20 14.14 34.14l48.5 48.5q14.14 14.14 34.14 14.14h56q20 0 34.14 14.14l284 284q13 14.14 0 30c-16.1 22.6-47.3 54.9-93.9 80q-20.34 9-41.1-10l-121-121" />
           <path d="M698 760c-9.427-9.427-9.427-18.853 0-28.28l10-10c9.427-9.427 18.853-14.14 28.28-14.14h61c13.333 0 24.713-4.713 34.14-14.14l99-99c9.427-9.427 20.807-14.14 34.14-14.14h301.5c13.333 0 20 6.667 20 20v74.603" />
         </g>
-        // TEL Line
+        {/* // TEL Line */}
         <path
           id="te_line"
           stroke="#784008"
@@ -93,7 +93,7 @@ export default function InteractiveMap(props: any) {
               : inactive
           }
         />
-        // LRT Line
+        {/* // LRT Line */}
         <g
           id="lrt_line"
           stroke="#999"
@@ -106,9 +106,9 @@ export default function InteractiveMap(props: any) {
           <path d="M284.4 225.6h207q10 0 17.07-7.07l19.2-19.2q7.07-7.07 17.07-7.07h10q10 0 10 10v46.6q0 10-10 10h-10q-10 0-17.07-7.07l-19.2-19.2q-7.07-7.07-17.07-7.07M1081 306l-7.76-7.76q-7.07-7.07-7.07-17.07v-20q0-10-7.07-17.07l-19-19q-7.07-7.07-14.14 0l-26 26q-7.07 7.07 0 14.14l19 19q7.07 7.07 17.07 7.07h20q10 0 17.07 7.07M1081 306l7.76 7.76q7.07 7.07 7.07 17.07v20q0 10 7.07 17.07l19 19q7.07 7.07 14.14 0l26-26q7.07-7.07 0-14.14l-19-19q-7.07-7.07-17.07-7.07h-20q-10 0-17.07-7.07M1176 209.5l-7.76-7.76q-7.07-7.07-7.07-17.07v-20q0-10-7.07-17.07l-19-19q-7.07-7.07-14.14 0l-26 26q-7.07 7.07 0 14.14l19 19q7.07 7.07 17.07 7.07h20q10 0 17.07 7.07M1177 209.5l7.76 7.76q7.07 7.07 7.07 17.07v20q0 10 7.07 17.07l19 19q7.07 7.07 14.14 0l26-26q7.07-7.07 0-14.14l-19-19q-7.07-7.07-17.07-7.07h-20q-10 0-17.07-7.07" />
         </g>
       </g>
-      // ----- stations -----
+      {/* // ----- stations ----- */}
       <g id="stations" fill="#fff" strokeWidth={2}>
-        //EWL Station
+        {/* //EWL Station */}
         <g
           id="ew_station"
           stroke="#009645"
@@ -144,7 +144,7 @@ export default function InteractiveMap(props: any) {
           <circle cx={75} cy={598} r={3} />
           <circle cx={75} cy={616} r={3} />
         </g>
-        // NSL Station
+        {/* // NSL Station */}
         <g
           id="ns_station"
           stroke="#d42e12"
@@ -172,7 +172,7 @@ export default function InteractiveMap(props: any) {
           <circle cx={702} cy={632} r={3} />
           <circle cx={786} cy={962} r={3} />
         </g>
-        // NEL Station
+        {/* // NEL Station */}
         <g
           id="ne_station"
           stroke="#90a"
@@ -191,7 +191,7 @@ export default function InteractiveMap(props: any) {
           <circle cx={988} cy={398.5} r={3} />
           <circle cx={1018} cy={368} r={3} />
         </g>
-        // CCL Station
+        {/* // CCL Station */}
         <g
           id="cc_station"
           stroke="#fa9e0d"
@@ -221,7 +221,7 @@ export default function InteractiveMap(props: any) {
           <circle cx={513.8} cy={792} r={3} />
           <circle cx={540} cy={827.5} r={3} />
         </g>
-        // DTL Station
+        {/* // DTL Station */}
         <g
           id="dt_station"
           stroke="#005ec4"
@@ -255,7 +255,7 @@ export default function InteractiveMap(props: any) {
           <circle cx={1286} cy={612} r={3} />
           <circle cx={1286} cy={647} r={3} />
         </g>
-        // TEL Station
+        {/* // TEL Station */}
         <g
           id="te_station"
           stroke="#784008"
@@ -674,7 +674,7 @@ export default function InteractiveMap(props: any) {
             }
           />
         </g>
-        // LRT Stations
+        {/* // LRT Stations */}
         <g
           id="bplrt_station"
           stroke="#999"
@@ -747,9 +747,9 @@ export default function InteractiveMap(props: any) {
           <circle cx={1141} cy={194.5} r={2.6} />
         </g>
       </g>
-      // ----- labels -----
+      {/* // ----- labels ----- */}
       <g id="labels" fontFamily="Arial">
-        // EWL Label
+        {/* // EWL Label */}
         <g
           id="ew_label"
           fontSize={12}
@@ -1057,7 +1057,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Tuas Link"}</tspan>
           </text>
         </g>
-        // NSL Label
+        {/* // NSL Label */}
         <g
           id="ns_label"
           fontSize={12}
@@ -1275,7 +1275,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"South Pier"}</tspan>
           </text>
         </g>
-        // NEL Label
+        {/* // NEL Label */}
         <g
           id="ne_label"
           fontSize={12}
@@ -1376,7 +1376,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Buangkok"}</tspan>
           </text>
         </g>
-        // CCL Label
+        {/* // CCL Label */}
         <g
           id="cc_label"
           fontSize={12}
@@ -1639,7 +1639,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Blangah"}</tspan>
           </text>
         </g>
-        // DTL Label
+        {/* // DTL Label */}
         <g
           id="dt_label"
           fontSize={12}
@@ -1974,7 +1974,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Changi"}</tspan>
           </text>
         </g>
-        // TEL Label
+        {/* // TEL Label */}
         <g
           id="te_label"
           fontSize={12}
@@ -2174,7 +2174,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"by the Bay"}</tspan>
           </text>
         </g>
-        // Interchanges
+        {/* // Interchanges */}
         <g id="interchange_label" fontSize={12} fontWeight="bold">
           <g
             id="dhoby_label"
@@ -2887,7 +2887,7 @@ export default function InteractiveMap(props: any) {
             </text>
           </g>
         </g>
-        // BPL Label
+        {/* // BPL Label */}
         <g
           id="bplrt_label"
           fontSize={10}
@@ -3024,7 +3024,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Senja"}</tspan>
           </text>
         </g>
-        // SKL Label
+        {/* // SKL Label */}
         <g
           id="stclrt_label"
           fontSize={10}
@@ -3161,7 +3161,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Renjong"}</tspan>
           </text>
         </g>
-        // PGL Label
+        {/* // PGL Label */}
         <g
           id="pgllrt_label"
           fontSize={10}

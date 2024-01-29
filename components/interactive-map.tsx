@@ -32,7 +32,7 @@ export default function InteractiveMap(props: any) {
           }
         >
           <path d="M1227 638v16q0 20 20 20h84" />
-          <path d="m1284 523-25 25q-14.14 14.14-14.14 34.14v37q0 20-20 20h-220q-20 0-34.14 14.14l-182 182q-14.14 14.14-34.14 14.14h-43q-20 0-34.14-14.14l-9-9q-14.14-14.14-14.14-34.14T640.16 758l-230.4-230.4q-14.14-14.14-34.14-14.14H95.02q-20 0-20 20v82" />
+          <path d="m1284 523-25 25q-14.14 14.14-14.14 34.14v37q0 20-20 20h-220q-20 0-34.14 14.14l-182 182q-14.14 14.14-34.14 14.14h-43q-20 0-34.14-14.14l-9-9q-14.14-14.14-14.14-34.14T640.16 758l-230.4-230.4q-14.14-14.14-34.14-14.14H95.02q-20 0-20 20v95" />
         </g>
         {/* // NSL Line */}
         <path
@@ -142,7 +142,7 @@ export default function InteractiveMap(props: any) {
           <circle cx={75} cy={542} r={3} />
           <circle cx={75} cy={570} r={3} />
           <circle cx={75} cy={598} r={3} />
-          <circle cx={75} cy={616} r={3} />
+          <circle cx={75} cy={627} r={3} />
         </g>
         {/* // NSL Station */}
         <g
@@ -914,7 +914,7 @@ export default function InteractiveMap(props: any) {
           </text>
           <text
             x={418}
-            y={581}
+            y={585}
             style={{
               whiteSpace: "pre",
             }}
@@ -958,7 +958,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Lakeside"}</tspan>
           </text>
           <text
-            x={122}
+            x={138}
             y={496}
             style={{
               whiteSpace: "pre",
@@ -967,7 +967,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Boon"}</tspan>
           </text>
           <text
-            x={131}
+            x={144}
             y={508}
             style={{
               whiteSpace: "pre",
@@ -1049,7 +1049,7 @@ export default function InteractiveMap(props: any) {
           </text>
           <text
             x={15}
-            y={620}
+            y={630}
             style={{
               whiteSpace: "pre",
             }}
@@ -1105,7 +1105,7 @@ export default function InteractiveMap(props: any) {
           </text>
           <text
             x={292}
-            y={175}
+            y={177}
             style={{
               whiteSpace: "pre",
             }}
@@ -1221,26 +1221,17 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Braddell"}</tspan>
           </text>
           <text
-            x={779}
-            y={473}
+            x={778}
+            y={475}
             style={{
               whiteSpace: "pre",
             }}
           >
-            <tspan>{"Toa"}</tspan>
+            <tspan>{"Toa Payoh"}</tspan>
           </text>
           <text
-            x={779}
-            y={485}
-            style={{
-              whiteSpace: "pre",
-            }}
-          >
-            <tspan>{"Payoh"}</tspan>
-          </text>
-          <text
-            x={748}
-            y={504}
+            x={746}
+            y={506}
             style={{
               whiteSpace: "pre",
             }}
@@ -1304,7 +1295,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Quay"}</tspan>
           </text>
           <text
-            x={810}
+            x={812}
             y={591}
             style={{
               whiteSpace: "pre",
@@ -1313,7 +1304,7 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Farrer"}</tspan>
           </text>
           <text
-            x={810}
+            x={812}
             y={603}
             style={{
               whiteSpace: "pre",
@@ -1367,8 +1358,8 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Hougang"}</tspan>
           </text>
           <text
-            x={962}
-            y={365}
+            x={957}
+            y={367}
             style={{
               whiteSpace: "pre",
             }}
@@ -1414,8 +1405,8 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Esplanade"}</tspan>
           </text>
           <text
-            x={950}
-            y={748}
+            x={990}
+            y={767}
             style={{
               whiteSpace: "pre",
             }}
@@ -1423,8 +1414,8 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Nicoll"}</tspan>
           </text>
           <text
-            x={934}
-            y={760}
+            x={990}
+            y={780}
             style={{
               whiteSpace: "pre",
             }}
@@ -1477,8 +1468,8 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Bartley"}</tspan>
           </text>
           <text
-            x={879}
-            y={413}
+            x={866}
+            y={405}
             style={{
               whiteSpace: "pre",
             }}
@@ -1486,8 +1477,8 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Lorong"}</tspan>
           </text>
           <text
-            x={879}
-            y={425}
+            x={866}
+            y={417}
             style={{
               whiteSpace: "pre",
             }}
@@ -1704,8 +1695,8 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Park"}</tspan>
           </text>
           <text
-            x={503}
-            y={407}
+            x={501}
+            y={405}
             style={{
               whiteSpace: "pre",
             }}
@@ -1713,8 +1704,8 @@ export default function InteractiveMap(props: any) {
             <tspan>{"Sixth"}</tspan>
           </text>
           <text
-            x={503}
-            y={419}
+            x={501}
+            y={417}
             style={{
               whiteSpace: "pre",
             }}
@@ -2267,8 +2258,8 @@ export default function InteractiveMap(props: any) {
             }
           >
             <text
-              x={886}
-              y={797}
+              x={964}
+              y={815}
               style={{
                 whiteSpace: "pre",
               }}
@@ -2700,7 +2691,7 @@ export default function InteractiveMap(props: any) {
           >
             <text
               x={480}
-              y={100}
+              y={103}
               style={{
                 whiteSpace: "pre",
               }}

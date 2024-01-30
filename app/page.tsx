@@ -14,10 +14,9 @@ export default function Home() {
 
   return (
     <div>
-      <div className="flex justify-center text-5xl pb-10">
+      <div className="flex justify-center text-5xl pb-5">
         <h1>MRT Maps</h1>
       </div>
-
       <div className="flex w-full pb-3">
         <Select
           label="Select map to display"
@@ -29,8 +28,10 @@ export default function Home() {
           ))}
         </Select>
       </div>
-
-      <InteractiveMap active={selectedMap} />
+      <div>
+        <InteractiveMap active={selectedMap} />
+      </div>
+      <div className="text-right pt-3">c.a.a. 30 Jan 2024</div>
     </div>
   );
 }

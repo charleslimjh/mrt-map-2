@@ -1,6 +1,13 @@
-# Next.js & NextUI Template
+# MRT Line Selector
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+This mini application allows you to highlight a specific MRT line, selected from a dropdown box.
+
+This application is built on Next.js 13 (app directory) and NextUI (v2).
+
+You can access the online demo [here](https://mrt-line-selector.netlify.app/) hosted on Netlify.
+
+## Acknowledgements
+The SVG file used to display the MRT map was adapted from [Wikipedia Commons](https://en.wikipedia.org/wiki/File:Singapore_MRT_and_LRT_System_Map.svg), which is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
 
 ## Technologies Used
 

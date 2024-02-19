@@ -5,7 +5,7 @@ export const maps = [
   { name: "Circle Line Map", value: "ccl" },
   { name: "North East Line Map", value: "nel" },
   { name: "Downtown Line Map", value: "dtl" },
-  { name: "Thompson-East Coast Line Map", value: "tel" },
+  { name: "Thomson-East Coast Line Map", value: "tel" },
   { name: "Light Rail Transit (LRT) Map", value: "lrt" },
 ];
 

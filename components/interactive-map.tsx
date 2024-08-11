@@ -82,17 +82,20 @@ export default function InteractiveMap(props: any) {
           <path d="M479 225v157q0 20 14.14 34.14l48.5 48.5q14.14 14.14 34.14 14.14h56q20 0 34.14 14.14l284 284q13 14.14 0 30c-16.1 22.6-47.3 54.9-93.9 80q-20.34 9-41.1-10l-121-121" />
           <path d="M698 760c-9.427-9.427-9.427-18.853 0-28.28l10-10c9.427-9.427 18.853-14.14 28.28-14.14h61c13.333 0 24.713-4.713 34.14-14.14l99-99c9.427-9.427 20.807-14.14 34.14-14.14h301.5c13.333 0 20 6.667 20 20v74.603" />
         </g>
+
         {/* // TEL Line */}
-        <path
+        <g
           id="te_line"
           stroke="#784008"
-          d="m496 34 147.8 147.8q14.14 14.14 14.14 34.14v557q0 20 14.14 34.14l132 132q14.14 14.14 34.14 14.14h40"
           opacity={
             props.active == "allmaps" || props.active == "tel"
               ? "1.0"
               : inactive
           }
-        />
+        >
+          <path d="m496 34 l147.8 147.8 q14.14 14.14 14.14 34.14 v557 q0 20 14.14 34.14 l132 132 q14.14 14.14 34.14 14.14 h40 q19.25 0 48.12 -19.22 A 355 355 0 0 0 1049.23 786 q8.52 -20 19.77 -20 h129" />
+        </g>
+
         {/* // LRT Line */}
         <g
           id="lrt_line"
@@ -280,6 +283,13 @@ export default function InteractiveMap(props: any) {
           <circle cx={690} cy={825} r={3} />
           <circle cx={745} cy={881} r={3} />
           <circle cx={880} cy={953} r={3} />
+          <circle id="te23" cx={1001} cy={865} r={3} />
+          <circle id="te24" cx={1027} cy={829} r={3} />
+          <circle id="te25" cx={1044} cy={797} r={3} />
+          <circle id="te26" cx={1085} cy={766} r={3} />
+          <circle id="te27" cx={1124} cy={766} r={3} />
+          <circle id="te28" cx={1163} cy={766} r={3} />
+          <circle id="te29" cx={1202} cy={766} r={3} />
         </g>
         <g id="interchange_station" stroke="#000" strokeWidth={3}>
           <circle
@@ -2148,7 +2158,7 @@ export default function InteractiveMap(props: any) {
           </text>
           <text
             x={876}
-            y={968}
+            y={970}
             style={{
               whiteSpace: "pre",
             }}
@@ -2157,12 +2167,105 @@ export default function InteractiveMap(props: any) {
           </text>
           <text
             x={876}
-            y={980}
+            y={982}
             style={{
               whiteSpace: "pre",
             }}
           >
             <tspan>{"by the Bay"}</tspan>
+          </text>
+          <text
+            x={1005}
+            y={879}
+            style={{
+              whiteSpace: "pre",
+            }}
+          >
+            <tspan>{"Tanjong Rhu"}</tspan>
+          </text>
+
+          <text
+            x={1032}
+            y={842}
+            style={{
+              whiteSpace: "pre",
+            }}
+          >
+            <tspan>{"Katong Park"}</tspan>
+          </text>
+
+          <text
+            x={1055}
+            y={797}
+            style={{
+              whiteSpace: "pre",
+            }}
+          >
+            <tspan>{"Tanjong"}</tspan>
+          </text>
+
+          <text
+            x={1055}
+            y={809}
+            style={{
+              whiteSpace: "pre",
+            }}
+          >
+            <tspan>{"Katong"}</tspan>
+          </text>
+          <text
+            x={1067}
+            y={748}
+            style={{
+              whiteSpace: "pre",
+            }}
+          >
+            <tspan>{"Marine"}</tspan>
+          </text>
+          <text
+            x={1065}
+            y={760}
+            style={{
+              whiteSpace: "pre",
+            }}
+          >
+            <tspan>{"Parade"}</tspan>
+          </text>
+          <text
+            x={1106}
+            y={782}
+            style={{
+              whiteSpace: "pre",
+            }}
+          >
+            <tspan>{"Marine"}</tspan>
+          </text>
+          <text
+            x={1104}
+            y={794}
+            style={{
+              whiteSpace: "pre",
+            }}
+          >
+            <tspan>{"Terrace"}</tspan>
+          </text>
+          <text
+            x={1147}
+            y={758}
+            style={{
+              whiteSpace: "pre",
+            }}
+          >
+            <tspan>{"Siglap"}</tspan>
+          </text>
+          <text
+            x={1178}
+            y={782}
+            style={{
+              whiteSpace: "pre",
+            }}
+          >
+            <tspan>{"Bayshore"}</tspan>
           </text>
         </g>
         {/* // Interchanges */}

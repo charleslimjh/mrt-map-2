@@ -31,7 +31,7 @@ export default function Home() {
       <div>
         <InteractiveMap active={selectedMap} />
       </div>
-      <div className="text-right pt-3">c.a.a. 30 Jan 2024</div>
+      <div className="text-right pt-3">c.a.a. 11 Aug 2024</div>
     </div>
   );
 }
